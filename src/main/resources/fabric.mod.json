@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "cpvpclient",
+  "version": "${version}",
+  "name": "Fog V1",
+  "description": "Fog V1 client.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.cpvp.CpvpClient"] },
+  "mixins": ["cpvpclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
